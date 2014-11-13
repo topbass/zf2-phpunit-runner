@@ -1,0 +1,23 @@
+{
+    "name": "topbass/phpunit-runner",
+    "type": "zend-extra",
+    "description": "ZF2 Phpunit Runner from Topbass Labs",
+    "keywords": [],
+    "homepage": "http://topbasslabs.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rollie Ma",
+            "email": "rollie@topbasslabs.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PhpunitRunner\\": "src/",
+            "PhpunitRunnerTest\\": "test/"
+        }
+    },
+    "require": {
+        "composer/installers": "*"
+    }
+}
